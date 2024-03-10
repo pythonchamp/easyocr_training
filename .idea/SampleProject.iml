@@ -6,7 +6,10 @@
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PackageRequirementsSettings">
-    <option name="requirementsPath" value="" />
+    <option name="requirementsPath" value="D:\Project\easyocr_training\requirements.txt" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="a60317f5-d511-4c27-a087-d4a433b87d8b" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
