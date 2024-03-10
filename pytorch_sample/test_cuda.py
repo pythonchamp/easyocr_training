@@ -17,7 +17,10 @@ class MyTestCase(unittest.TestCase):
 
         # Check the availability of CUDA
         status = torch.cuda.is_available()
-
+        print("Is CUDA available?", status)
+        print("Number of GPUs:", torch.cuda.device_count())
+        print("Device name:", torch.cuda.get_device_name(0))
+        print("Device name:", torch.version.cuda)
         # Assert that CUDA is available
         assert status == True
 

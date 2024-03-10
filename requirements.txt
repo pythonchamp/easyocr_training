@@ -1,2 +1,7 @@
 torch~=2.2.1+cu121
 easyocr~=1.7.1
+pandas
+natsort
+nltk
+xlrd
+PyQt5

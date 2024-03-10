@@ -1,4 +1,5 @@
 import easyocr
+import pandas as pd
 
 
 class Reader:
@@ -10,3 +11,10 @@ class Reader:
     def readtext(self, image_path):
         result = self.reader.readtext(image_path, detail=0)
         return result
+
+    def convert_label_to_csv(self,file_path):
+        self.df = pd.read_csv(file_path, sep='\t', engine='python',
+                              usecols=['filename', 'words'], keep_default_na=False)
+        print(self.df)
+
+

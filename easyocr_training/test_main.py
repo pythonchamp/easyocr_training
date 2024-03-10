@@ -16,6 +16,9 @@ class MyTestCase(unittest.TestCase):
         print(f"{actual=}")
         self.assertEqual(actual, expected)  # add assertion here
 
+    def test_convert_label_to_csv(self):
+        reader = Reader()
+        reader.convert_label_to_csv("./trainer/all_data/en_train_filtered/Label.txt")
 
 if __name__ == '__main__':
     unittest.main()
