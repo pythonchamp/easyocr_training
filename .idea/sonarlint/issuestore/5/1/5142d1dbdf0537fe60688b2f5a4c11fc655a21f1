@@ -1,0 +1,13 @@
+
+¬python:S117+"cRename this local variable "AlignCollate_valid" to match the regular expression ^[_a-z][a-z0-9_]*$.(á¥ûâúÿÿÿÿ8øèËâ1J$5edc0c9f-2b25-42b1-bda9-1595b113e2a8
+§python:S117©"]Rename this local variable "best_norm_ED" to match the regular expression ^[_a-z][a-z0-9_]*$.(–â±Êÿÿÿÿÿ8øèËâ1J$72bed9db-a86b-405c-ab22-b224dc69cfed
+¥python:S117è"`Rename this local variable "current_norm_ED" to match the regular expression ^[_a-z][a-z0-9_]*$.(Êëïä8øèËâ1J$65f90c78-0178-4ae2-b266-65279005280c
+jpython:S1481c"%Remove the unused local variable "e".(®‹ö¨8øèËâ1J$2e6e7a8b-67c8-41a2-a52d-1c5dc0f64944
+‚python:S1481é"<Replace the unused local variable "length_of_data" with "_".(şÇ±Ç8øèËâ1J$89741b76-c402-4ffa-953e-41fceffa8126
+~python:S1481é"8Replace the unused local variable "infer_time" with "_".(şÇ±Ç8øèËâ1J$d4494169-5cc3-4791-a77f-57021251c39b
+python:S3776 "TRefactor this function to reduce its Cognitive Complexity from 85 to the 15 allowed.(õ­×“ÿÿÿÿÿ8 øèËâ1J$73ea00b1-8943-44d8-906f-a49068b0c8e7
+python:S5754~"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8¡øèËâ1J$f16fdf04-f260-44b5-bb0f-3808a7f9ebf4
+ipython:S125Œ"Remove this commented out code.(“ñò£ùÿÿÿÿ8¢øèËâ1J$5431ab21-d409-444f-ac30-266657b1c605
+‚python:S5754¤"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8£øèËâ1J$3a319b37-5cc2-4ebc-b096-33aca62d59de
+python:S1135¦"4Complete the task associated to this "TODO" comment.(Ì·Ë¢ûÿÿÿÿ8”òìËâ1J$3346ff5f-12aa-4b61-8eb0-49f43a8cc8f4
+ipython:S125„"Remove this commented out code.(ªÒÕÔúÿÿÿÿ8¤øèËâ1J$c52d4755-9713-4040-8aae-821818d90317

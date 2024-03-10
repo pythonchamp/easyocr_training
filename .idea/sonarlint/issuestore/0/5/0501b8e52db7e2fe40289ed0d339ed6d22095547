@@ -1,0 +1,19 @@
+
+´python:S101"pRename class "Batch_Balanced_Dataset" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(„Ë¹ä8¸Ë¿Èâ1J$36b8d8ba-9b34-4ac5-9665-3c623890f44e
+ªpython:S1173"aRename this local variable "Total_batch_size" to match the regular expression ^[_a-z][a-z0-9_]*$.(­´Õ’øÿÿÿÿ8¸Ë¿Èâ1J$d1f3b3f3-4838-4cbb-817a-32bb987653d4
+®python:S117V"eRename this local variable "Total_batch_size_log" to match the regular expression ^[_a-z][a-z0-9_]*$.(À”ëúÿÿÿÿ8¸Ë¿Èâ1J$378811da-69a1-4d01-ada3-35564db26438
+¢python:S117/"^Rename this local variable "_AlignCollate" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ô†ÚÀ8¸Ë¿Èâ1J$ada19224-d4a4-4911-9795-2d318906b1fd
+hpython:S125P"Remove this commented out code.(ÔÓí”üÿÿÿÿ8¸Ë¿Èâ1J$867bbce2-c601-4545-ba4f-2d28c19e3add
+hpython:S125Q"Remove this commented out code.(ã‚ÿıÿÿÿÿ8‚ı•Ëâ1J$3033a146-2106-49b4-b100-b8e5869cffb0
+hpython:S125f"Remove this commented out code.(‡å·¦ıÿÿÿÿ8¥‹»Êâ1J$2f616918-6bab-47a9-97d0-37908e488915
+hpython:S125l"Remove this commented out code.(ö—øşÿÿÿÿ8†ÛÁÊâ1J$cca55263-e7f9-47ee-b626-5e8948aeacbc
+‚python:S5754¤"<Specify an exception class to catch or reraise the exception(ˆÊÉ·8¹Ë¿Èâ1J$be5eeb62-2f74-4037-9381-6ff4f58508a6
+špython:S116È"PRename this field "toTensor" to match the regular expression ^[_a-z][_a-z0-9]*$.(¡©§´üÿÿÿÿ8¹Ë¿Èâ1J$206d2334-2530-4c3b-8f19-9fda0fc1ae2d
+špython:S116×"PRename this field "PAD_type" to match the regular expression ^[_a-z][_a-z0-9]*$.(æÿïÃúÿÿÿÿ8¹Ë¿Èâ1J$6768ebcc-9dde-4b67-b22c-6d485f34d477
+špython:S116Ô"PRename this field "toTensor" to match the regular expression ^[_a-z][_a-z0-9]*$.(¡©§´üÿÿÿÿ8¹Ë¿Èâ1J$2fd0f0de-9339-4428-bd19-791494000f72
+™python:S117Ó"TRename this parameter "PAD_type" to match the regular expression ^[_a-z][a-z0-9_]*$.(¡÷À¦8¹Ë¿Èâ1J$b3712785-02cf-43ed-9f04-c871b4fd7ad3
+python:S117İ"XRename this local variable "Pad_img" to match the regular expression ^[_a-z][a-z0-9_]*$.(œÑÿª8¹Ë¿Èâ1J$f07223d8-b93e-4d90-bdd9-7064070cbd14
+–python:S116é"LRename this field "imgW" to match the regular expression ^[_a-z][_a-z0-9]*$.( “Øüúÿÿÿÿ8¹Ë¿Èâ1J$75383159-abd6-49e1-8943-8396997d2a29
+–python:S116è"LRename this field "imgH" to match the regular expression ^[_a-z][_a-z0-9]*$.(¤¥¨ûÿÿÿÿ8¹Ë¿Èâ1J$224b82de-a915-4a6f-82d2-fa1811af3626
+špython:S117ç"PRename this parameter "imgH" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ï÷’Ñùÿÿÿÿ8¹Ë¿Èâ1J$917dace1-1d68-436d-8b2c-a6757b6ae512
+špython:S117ç"PRename this parameter "imgW" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ï÷’Ñùÿÿÿÿ8¹Ë¿Èâ1J$8aea052f-9d76-4595-b26d-cf7f41354c5b
