@@ -22,8 +22,9 @@ class MyTestCase(unittest.TestCase):
                                 download_enabled=False,
                                 verbose=True
                                 )
-        result = reader.readtext('./unittest_data/0.png')
+        result = reader.readtext('./unittest_data/4.png',detail=0)
         print(f"{result=}")
+
 
 
 if __name__ == '__main__':

@@ -2,65 +2,43 @@ import os
 import pandas as pd
 import easyocr
 
-def evaluate_custom_easyocr_model(
-    image_folder,
-    model_storage_directory,
-    user_network_directory,
-    recog_network='custom_model',
-    lang_list=['en']
-):
-    # Initialize EasyOCR with your custom model
+def evaluate_ocr_to_dataframe(eval_folder, labels_csv_path, model_dir):
     reader = easyocr.Reader(
-        lang_list=lang_list,
-        model_storage_directory=model_storage_directory,
-        user_network_directory=user_network_directory,
-        recog_network=recog_network,
+        ['en'],
+        recog_network='best_accuracy',
+        model_storage_directory=model_dir,
+        user_network_directory=model_dir,
         download_enabled=False,
-        gpu=False
+        verbose=True
     )
 
+    df = pd.read_csv(labels_csv_path)
     results = []
-    total = 0
-    correct = 0
 
-    supported_exts = ('.jpg', '.jpeg', '.png', '.bmp', '.tif')
+    for idx, row in df.iterrows():
+        image_path = os.path.join(eval_folder, row['filename'])
+        expected = row['words']
 
-    for filename in sorted(os.listdir(image_folder)):
-        if not filename.lower().endswith(supported_exts):
+        if not os.path.exists(image_path):
+            print(f"Image not found: {image_path}")
             continue
 
-        expected_text = os.path.splitext(filename)[0]
-        image_path = os.path.join(image_folder, filename)
-        ocr_result = reader.readtext(image_path, detail=0)
-
-        predicted_text = ''.join(ocr_result).strip()
-
-        match = expected_text == predicted_text
-        if match:
-            correct += 1
-        total += 1
+        prediction = reader.readtext(image_path, detail=0)
+        actual = prediction[0] if prediction else ''
 
         results.append({
-            'image_file': filename,
-            'expected': expected_text,
-            'predicted': predicted_text,
-            'match': match
+            'filename': row['filename'],
+            'expected': expected,
+            'actual': actual
         })
 
-    accuracy = correct / total * 100 if total > 0 else 0.0
-    print(f"\n✅ Trained EasyOCR Accuracy: {correct}/{total} ({accuracy:.2f}%)")
-
-    df = pd.DataFrame(results)
-    print(df)
-
-    return df
-
+    result_df = pd.DataFrame(results)
+    print(result_df.to_markdown())
+    return result_df
 
 if __name__ == '__main__':
-    df = evaluate_custom_easyocr_model(
-        image_folder="en_val",
-        model_storage_directory="../saved_models/en_filtered",  # Folder where best_accuracy.pth is stored
-        user_network_directory="../saved_models/en_filtered",  # Usually the same
-        recog_network='custom_model',  # This is the model name prefix
-        lang_list=['en']  # Or your custom language code
+    df = evaluate_ocr_to_dataframe(
+        eval_folder="unique_images",
+        labels_csv_path='unique_images/labels.csv',  # Folder where best_accuracy.pth is stored
+        model_dir='../saved_models',  # This is the model name prefix
     )

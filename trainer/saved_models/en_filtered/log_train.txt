@@ -1,9 +1,711 @@
-[1/1] Train loss: 30.50279, Valid loss: 7.50695, Elapsed_time: 12.14187
-Current_accuracy : 0.000, Current_norm_ED  : 0.1579
-Best_accuracy    : 0.000, Best_norm_ED     : 0.1579
+[10/200] Train loss: 5.76537, Valid loss: 0.61173, Elapsed_time: 11.29559
+Current_accuracy : 0.000, Current_norm_ED  : 0.6316
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6316
 --------------------------------------------------------------------------------
 Ground Truth              | Prediction                | Confidence Score & T/F
 --------------------------------------------------------------------------------
-IS PROGRAM CORRECT?       | 2mOaOJw?                  | 0.0000	False
-IS PROGRAM CORRECT?       | 2mOaOJw?                  | 0.0000	False
+IS PROGRAM CORRECT?       | ISPROGMCRECT              | 0.0004	False
+IS PROGRAM CORRECT?       | ISPROGMCRECT              | 0.0004	False
+--------------------------------------------------------------------------------
+[20/200] Train loss: 0.57685, Valid loss: 0.08172, Elapsed_time: 143.64863
+Current_accuracy : 0.000, Current_norm_ED  : 0.8421
+Best_accuracy    : 0.000, Best_norm_ED     : 0.8421
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CRRCT          | 0.0055	False
+IS PROGRAM CORRECT?       | IS PROGRAM CRRCT          | 0.0055	False
+--------------------------------------------------------------------------------
+[30/200] Train loss: 0.11754, Valid loss: 0.02004, Elapsed_time: 274.13048
+Current_accuracy : 0.000, Current_norm_ED  : 0.8947
+Best_accuracy    : 0.000, Best_norm_ED     : 0.8947
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CRRECT         | 0.0609	False
+IS PROGRAM CORRECT?       | IS PROGRAM CRRECT         | 0.0609	False
+--------------------------------------------------------------------------------
+[40/200] Train loss: 0.08010, Valid loss: 0.01400, Elapsed_time: 397.07441
+Current_accuracy : 0.000, Current_norm_ED  : 0.8947
+Best_accuracy    : 0.000, Best_norm_ED     : 0.8947
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM ORRECT         | 0.1073	False
+IS PROGRAM CORRECT?       | IS PROGRAM ORRECT         | 0.1073	False
+--------------------------------------------------------------------------------
+[50/200] Train loss: 0.02848, Valid loss: 0.00861, Elapsed_time: 523.65496
+Current_accuracy : 0.000, Current_norm_ED  : 0.8421
+Best_accuracy    : 0.000, Best_norm_ED     : 0.8947
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.1065	False
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.1065	False
+--------------------------------------------------------------------------------
+[60/200] Train loss: 0.01586, Valid loss: 0.00618, Elapsed_time: 665.57226
+Current_accuracy : 0.000, Current_norm_ED  : 0.8421
+Best_accuracy    : 0.000, Best_norm_ED     : 0.8947
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.1741	False
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.1741	False
+--------------------------------------------------------------------------------
+[70/200] Train loss: 0.01229, Valid loss: 0.00497, Elapsed_time: 800.50817
+Current_accuracy : 0.000, Current_norm_ED  : 0.8421
+Best_accuracy    : 0.000, Best_norm_ED     : 0.8947
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.2107	False
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.2107	False
+--------------------------------------------------------------------------------
+[80/200] Train loss: 0.00984, Valid loss: 0.00401, Elapsed_time: 942.66224
+Current_accuracy : 0.000, Current_norm_ED  : 0.8421
+Best_accuracy    : 0.000, Best_norm_ED     : 0.8947
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.2414	False
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.2414	False
+--------------------------------------------------------------------------------
+[90/200] Train loss: 0.00770, Valid loss: 0.00326, Elapsed_time: 1082.71508
+Current_accuracy : 0.000, Current_norm_ED  : 0.8421
+Best_accuracy    : 0.000, Best_norm_ED     : 0.8947
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.2654	False
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.2654	False
+--------------------------------------------------------------------------------
+[100/200] Train loss: 0.00657, Valid loss: 0.00286, Elapsed_time: 1218.96995
+Current_accuracy : 0.000, Current_norm_ED  : 0.8421
+Best_accuracy    : 0.000, Best_norm_ED     : 0.8947
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.3096	False
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.3096	False
+--------------------------------------------------------------------------------
+[110/200] Train loss: 0.00445, Valid loss: 0.00230, Elapsed_time: 1358.94499
+Current_accuracy : 0.000, Current_norm_ED  : 0.8421
+Best_accuracy    : 0.000, Best_norm_ED     : 0.8947
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.2873	False
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.2873	False
+--------------------------------------------------------------------------------
+[120/200] Train loss: 0.00374, Valid loss: 0.00195, Elapsed_time: 1491.10502
+Current_accuracy : 0.000, Current_norm_ED  : 0.8421
+Best_accuracy    : 0.000, Best_norm_ED     : 0.8947
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.3130	False
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.3130	False
+--------------------------------------------------------------------------------
+[130/200] Train loss: 0.00376, Valid loss: 0.00162, Elapsed_time: 1610.02020
+Current_accuracy : 0.000, Current_norm_ED  : 0.8421
+Best_accuracy    : 0.000, Best_norm_ED     : 0.8947
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.3228	False
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.3228	False
+--------------------------------------------------------------------------------
+[140/200] Train loss: 0.00267, Valid loss: 0.00144, Elapsed_time: 1734.97783
+Current_accuracy : 0.000, Current_norm_ED  : 0.8421
+Best_accuracy    : 0.000, Best_norm_ED     : 0.8947
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.3349	False
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.3349	False
+--------------------------------------------------------------------------------
+[150/200] Train loss: 0.00201, Valid loss: 0.00124, Elapsed_time: 1858.02486
+Current_accuracy : 0.000, Current_norm_ED  : 0.8421
+Best_accuracy    : 0.000, Best_norm_ED     : 0.8947
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.3218	False
+IS PROGRAM CORRECT?       | IS PROGRAM CRECT          | 0.3218	False
+--------------------------------------------------------------------------------
+[160/200] Train loss: 0.00171, Valid loss: 0.00109, Elapsed_time: 1982.20644
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.8947
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CREC           | 0.3237	False
+IS PROGRAM CORRECT?       | IS PROGRAM CREC           | 0.3237	False
+--------------------------------------------------------------------------------
+[170/200] Train loss: 0.00168, Valid loss: 0.00096, Elapsed_time: 2116.38367
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.8947
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CREC           | 0.3198	False
+IS PROGRAM CORRECT?       | IS PROGRAM CREC           | 0.3198	False
+--------------------------------------------------------------------------------
+[180/200] Train loss: 0.00126, Valid loss: 0.00084, Elapsed_time: 2248.36565
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.8947
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CREC           | 0.3217	False
+IS PROGRAM CORRECT?       | IS PROGRAM CREC           | 0.3217	False
+--------------------------------------------------------------------------------
+[10/200] Train loss: 8.79045, Valid loss: 0.19681, Elapsed_time: 38.74692
+Current_accuracy : 0.000, Current_norm_ED  : 0.6842
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISPRORA COREC             | 0.0051	False
+IS PROGRAM CORRECT?       | ISPRORA COREC             | 0.0051	False
+--------------------------------------------------------------------------------
+[20/200] Train loss: 0.21705, Valid loss: 0.02986, Elapsed_time: 145.81919
+Current_accuracy : 0.000, Current_norm_ED  : 0.6842
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISP PRGRM COREC           | 0.2570	False
+IS PROGRAM CORRECT?       | ISP PRGRM COREC           | 0.2570	False
+--------------------------------------------------------------------------------
+[30/200] Train loss: 0.02297, Valid loss: 0.02283, Elapsed_time: 253.54137
+Current_accuracy : 0.000, Current_norm_ED  : 0.7368
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7368
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISP PRORAM COREC          | 0.2817	False
+IS PROGRAM CORRECT?       | ISP PRORAM COREC          | 0.2817	False
+--------------------------------------------------------------------------------
+[40/200] Train loss: 0.01330, Valid loss: 0.01832, Elapsed_time: 361.89977
+Current_accuracy : 0.000, Current_norm_ED  : 0.7368
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7368
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISP PRORAM COREC          | 0.3287	False
+IS PROGRAM CORRECT?       | ISP PRORAM COREC          | 0.3287	False
+--------------------------------------------------------------------------------
+[50/200] Train loss: 0.00951, Valid loss: 0.01562, Elapsed_time: 480.98158
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.4148	False
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.4148	False
+--------------------------------------------------------------------------------
+[60/200] Train loss: 0.00705, Valid loss: 0.01288, Elapsed_time: 597.04107
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.4605	False
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.4605	False
+--------------------------------------------------------------------------------
+[70/200] Train loss: 0.00567, Valid loss: 0.01134, Elapsed_time: 713.03076
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.4921	False
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.4921	False
+--------------------------------------------------------------------------------
+[80/200] Train loss: 0.00449, Valid loss: 0.01003, Elapsed_time: 829.22466
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.5206	False
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.5206	False
+--------------------------------------------------------------------------------
+[90/200] Train loss: 0.00387, Valid loss: 0.00865, Elapsed_time: 944.82968
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.5484	False
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.5484	False
+--------------------------------------------------------------------------------
+[100/200] Train loss: 0.00308, Valid loss: 0.00776, Elapsed_time: 1052.66079
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.5726	False
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.5726	False
+--------------------------------------------------------------------------------
+[110/200] Train loss: 0.00248, Valid loss: 0.00672, Elapsed_time: 1163.23906
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.6017	False
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.6017	False
+--------------------------------------------------------------------------------
+[120/200] Train loss: 0.00216, Valid loss: 0.00598, Elapsed_time: 1273.86040
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.6229	False
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.6229	False
+--------------------------------------------------------------------------------
+[130/200] Train loss: 0.00181, Valid loss: 0.00564, Elapsed_time: 1384.41789
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.6353	False
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.6353	False
+--------------------------------------------------------------------------------
+[140/200] Train loss: 0.00151, Valid loss: 0.00485, Elapsed_time: 1493.97939
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.6595	False
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.6595	False
+--------------------------------------------------------------------------------
+[150/200] Train loss: 0.00133, Valid loss: 0.00448, Elapsed_time: 1604.11972
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.6738	False
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.6738	False
+--------------------------------------------------------------------------------
+[160/200] Train loss: 0.00110, Valid loss: 0.00412, Elapsed_time: 1713.86148
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.6869	False
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.6869	False
+--------------------------------------------------------------------------------
+[170/200] Train loss: 0.00098, Valid loss: 0.00386, Elapsed_time: 1824.41353
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.6990	False
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.6990	False
+--------------------------------------------------------------------------------
+[180/200] Train loss: 0.00081, Valid loss: 0.00378, Elapsed_time: 1926.81830
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.7046	False
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.7046	False
+--------------------------------------------------------------------------------
+[190/200] Train loss: 0.00072, Valid loss: 0.00342, Elapsed_time: 2021.63901
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.7209	False
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.7209	False
+--------------------------------------------------------------------------------
+[200/200] Train loss: 0.00064, Valid loss: 0.00323, Elapsed_time: 2113.77101
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.7284	False
+IS PROGRAM CORRECT?       | ISP PROGRAM COREC         | 0.7284	False
+--------------------------------------------------------------------------------
+[10/200] Train loss: 9.97830, Valid loss: 0.45570, Elapsed_time: 13.56487
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.5789
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISPROROGRAMCORR           | 0.0112	False
+IS PROGRAM CORRECT?       | ISPROROGRAMCORR           | 0.0112	False
+--------------------------------------------------------------------------------
+[20/200] Train loss: 0.15009, Valid loss: 0.05022, Elapsed_time: 135.71080
+Current_accuracy : 0.000, Current_norm_ED  : 0.7368
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7368
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ISPROGRAM CORR            | 0.0021	False
+IS PROGRAM CORRECT?       | ISPROGRAM CORR            | 0.0021	False
+--------------------------------------------------------------------------------
+[30/200] Train loss: 0.04457, Valid loss: 0.02916, Elapsed_time: 259.97956
+Current_accuracy : 0.000, Current_norm_ED  : 0.7368
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7368
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM COR            | 0.0119	False
+IS PROGRAM CORRECT?       | IS PROGRAM COR            | 0.0119	False
+--------------------------------------------------------------------------------
+[40/200] Train loss: 0.02463, Valid loss: 0.01844, Elapsed_time: 377.77150
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CORR           | 0.0250	False
+IS PROGRAM CORRECT?       | IS PROGRAM CORR           | 0.0250	False
+--------------------------------------------------------------------------------
+[50/200] Train loss: 0.01540, Valid loss: 0.01322, Elapsed_time: 500.70211
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CORR           | 0.0374	False
+IS PROGRAM CORRECT?       | IS PROGRAM CORR           | 0.0374	False
+--------------------------------------------------------------------------------
+[60/200] Train loss: 0.01062, Valid loss: 0.00980, Elapsed_time: 616.50491
+Current_accuracy : 0.000, Current_norm_ED  : 0.7895
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CORR           | 0.0494	False
+IS PROGRAM CORRECT?       | IS PROGRAM CORR           | 0.0494	False
+--------------------------------------------------------------------------------
+[70/200] Train loss: 0.00775, Valid loss: 0.00764, Elapsed_time: 739.22550
+Current_accuracy : 0.000, Current_norm_ED  : 0.7368
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM COR0           | 0.0732	False
+IS PROGRAM CORRECT?       | IS PROGRAM COR0           | 0.0732	False
+--------------------------------------------------------------------------------
+[80/200] Train loss: 0.00587, Valid loss: 0.00624, Elapsed_time: 855.13081
+Current_accuracy : 0.000, Current_norm_ED  : 0.7368
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM COR0           | 0.0946	False
+IS PROGRAM CORRECT?       | IS PROGRAM COR0           | 0.0946	False
+--------------------------------------------------------------------------------
+[90/200] Train loss: 0.00465, Valid loss: 0.00495, Elapsed_time: 942.68227
+Current_accuracy : 0.000, Current_norm_ED  : 0.7368
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM COR0           | 0.1195	False
+IS PROGRAM CORRECT?       | IS PROGRAM COR0           | 0.1195	False
+--------------------------------------------------------------------------------
+[100/200] Train loss: 0.00365, Valid loss: 0.00413, Elapsed_time: 1032.45197
+Current_accuracy : 0.000, Current_norm_ED  : 0.7368
+Best_accuracy    : 0.000, Best_norm_ED     : 0.7895
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM COR0           | 0.1410	False
+IS PROGRAM CORRECT?       | IS PROGRAM COR0           | 0.1410	False
+--------------------------------------------------------------------------------
+[10/200] Train loss: 5.97424, Valid loss: 0.10952, Elapsed_time: 12.91711
+Current_accuracy : 0.000, Current_norm_ED  : 0.6842
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROGRAM CO             | 0.0105	False
+IS PROGRAM CORRECT?       | IS PROGRAM CO             | 0.0105	False
+--------------------------------------------------------------------------------
+[20/200] Train loss: 0.08831, Valid loss: 0.05159, Elapsed_time: 152.12776
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.0063	False
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.0063	False
+--------------------------------------------------------------------------------
+[30/200] Train loss: 0.04632, Valid loss: 0.04086, Elapsed_time: 281.64522
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.0414	False
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.0414	False
+--------------------------------------------------------------------------------
+[40/200] Train loss: 0.06183, Valid loss: 0.01931, Elapsed_time: 405.70768
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.0470	False
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.0470	False
+--------------------------------------------------------------------------------
+[50/200] Train loss: 0.01555, Valid loss: 0.01160, Elapsed_time: 535.18892
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.0859	False
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.0859	False
+--------------------------------------------------------------------------------
+[60/200] Train loss: 0.01016, Valid loss: 0.00816, Elapsed_time: 663.16852
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1069	False
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1069	False
+--------------------------------------------------------------------------------
+[70/200] Train loss: 0.00714, Valid loss: 0.00625, Elapsed_time: 797.10890
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1236	False
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1236	False
+--------------------------------------------------------------------------------
+[80/200] Train loss: 0.00547, Valid loss: 0.00485, Elapsed_time: 925.71400
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1343	False
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1343	False
+--------------------------------------------------------------------------------
+[90/200] Train loss: 0.00418, Valid loss: 0.00396, Elapsed_time: 1054.02902
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1394	False
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1394	False
+--------------------------------------------------------------------------------
+[100/200] Train loss: 0.00331, Valid loss: 0.00321, Elapsed_time: 1188.06218
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1646	False
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1646	False
+--------------------------------------------------------------------------------
+[110/200] Train loss: 0.00272, Valid loss: 0.00266, Elapsed_time: 1316.72680
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1685	False
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1685	False
+--------------------------------------------------------------------------------
+[120/200] Train loss: 0.00221, Valid loss: 0.00220, Elapsed_time: 1446.24696
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1849	False
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1849	False
+--------------------------------------------------------------------------------
+[130/200] Train loss: 0.00184, Valid loss: 0.00188, Elapsed_time: 1573.76438
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1818	False
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1818	False
+--------------------------------------------------------------------------------
+[140/200] Train loss: 0.00152, Valid loss: 0.00160, Elapsed_time: 1721.00935
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1861	False
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1861	False
+--------------------------------------------------------------------------------
+[150/200] Train loss: 0.00131, Valid loss: 0.00138, Elapsed_time: 1847.46980
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1867	False
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1867	False
+--------------------------------------------------------------------------------
+[160/200] Train loss: 0.00109, Valid loss: 0.00120, Elapsed_time: 1973.76804
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1875	False
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1875	False
+--------------------------------------------------------------------------------
+[170/200] Train loss: 0.00095, Valid loss: 0.00107, Elapsed_time: 2107.76579
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1888	False
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1888	False
+--------------------------------------------------------------------------------
+[180/200] Train loss: 0.00083, Valid loss: 0.00093, Elapsed_time: 2248.22914
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1870	False
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1870	False
+--------------------------------------------------------------------------------
+[190/200] Train loss: 0.00072, Valid loss: 0.00084, Elapsed_time: 2378.97614
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1870	False
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1870	False
+--------------------------------------------------------------------------------
+[200/200] Train loss: 0.00064, Valid loss: 0.00074, Elapsed_time: 2514.71753
+Current_accuracy : 0.000, Current_norm_ED  : 0.5789
+Best_accuracy    : 0.000, Best_norm_ED     : 0.6842
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1817	False
+IS PROGRAM CORRECT?       | ICIS PROGRAM CO           | 0.1817	False
+--------------------------------------------------------------------------------
+[10/200] Train loss: 7.58428, Valid loss: 1.21460, Elapsed_time: 13.82606
+Current_accuracy : 0.000, Current_norm_ED  : 0.3158
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3158
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | I%IS PROGOG               | 0.0000	False
+IS PROGRAM CORRECT?       | I%IS PROGOG               | 0.0000	False
+--------------------------------------------------------------------------------
+[20/200] Train loss: 0.49881, Valid loss: 0.14373, Elapsed_time: 155.77014
+Current_accuracy : 0.000, Current_norm_ED  : 0.2632
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3158
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | I%IS PROG                 | 0.0004	False
+IS PROGRAM CORRECT?       | I%IS PROG                 | 0.0004	False
+--------------------------------------------------------------------------------
+[30/200] Train loss: 0.10655, Valid loss: 0.05640, Elapsed_time: 306.61588
+Current_accuracy : 0.000, Current_norm_ED  : 0.3684
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3684
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROG                   | 0.0006	False
+IS PROGRAM CORRECT?       | IS PROG                   | 0.0006	False
+--------------------------------------------------------------------------------
+[40/200] Train loss: 0.04851, Valid loss: 0.03843, Elapsed_time: 447.00295
+Current_accuracy : 0.000, Current_norm_ED  : 0.3684
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3684
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROG                   | 0.0017	False
+IS PROGRAM CORRECT?       | IS PROG                   | 0.0017	False
+--------------------------------------------------------------------------------
+[50/200] Train loss: 0.04592, Valid loss: 0.09149, Elapsed_time: 594.01012
+Current_accuracy : 0.000, Current_norm_ED  : 0.3684
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3684
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROG                   | 0.0042	False
+IS PROGRAM CORRECT?       | IS PROG                   | 0.0042	False
+--------------------------------------------------------------------------------
+[60/200] Train loss: 0.04250, Valid loss: 0.01918, Elapsed_time: 733.26835
+Current_accuracy : 0.000, Current_norm_ED  : 0.3684
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3684
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROG                   | 0.0098	False
+IS PROGRAM CORRECT?       | IS PROG                   | 0.0098	False
+--------------------------------------------------------------------------------
+[70/200] Train loss: 0.01599, Valid loss: 0.01274, Elapsed_time: 879.74659
+Current_accuracy : 0.000, Current_norm_ED  : 0.3684
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3684
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROG                   | 0.0066	False
+IS PROGRAM CORRECT?       | IS PROG                   | 0.0066	False
+--------------------------------------------------------------------------------
+[80/200] Train loss: 0.01092, Valid loss: 0.00918, Elapsed_time: 1013.24111
+Current_accuracy : 0.000, Current_norm_ED  : 0.3684
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3684
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROG                   | 0.0182	False
+IS PROGRAM CORRECT?       | IS PROG                   | 0.0182	False
+--------------------------------------------------------------------------------
+[90/200] Train loss: 0.00790, Valid loss: 0.00691, Elapsed_time: 1129.18597
+Current_accuracy : 0.000, Current_norm_ED  : 0.3684
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3684
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROG                   | 0.0264	False
+IS PROGRAM CORRECT?       | IS PROG                   | 0.0264	False
+--------------------------------------------------------------------------------
+[100/200] Train loss: 0.00602, Valid loss: 0.00535, Elapsed_time: 1259.32448
+Current_accuracy : 0.000, Current_norm_ED  : 0.3684
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3684
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROG                   | 0.0298	False
+IS PROGRAM CORRECT?       | IS PROG                   | 0.0298	False
+--------------------------------------------------------------------------------
+[110/200] Train loss: 0.00462, Valid loss: 0.00421, Elapsed_time: 1381.52871
+Current_accuracy : 0.000, Current_norm_ED  : 0.3684
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3684
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | IS PROG                   | 0.0389	False
+IS PROGRAM CORRECT?       | IS PROG                   | 0.0389	False
 --------------------------------------------------------------------------------
