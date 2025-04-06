@@ -9,12 +9,12 @@ workers: 6
 batch_size: 32 #32
 num_iter: 50
 valInterval: 1
-saved_model: 'saved_models/best_accuracy.pth'
-#saved_model: 'saved_models/en_filtered/english_g2.pth' #'saved_models/en_filtered/iter_300000.pth'
+#saved_model: 'saved_models/best_accuracy.pth'
+saved_model: 'saved_models/en_filtered/english_g2.pth' #'saved_models/en_filtered/iter_300000.pth'
 #saved_model: 'saved_models/en_filtered/iter_100.pth' #'saved_models/en_filtered/iter_300000.pth'
-FT: False
+FT: False  # Fine-tune, not train from scratch
 optim: False # default is Adadelta
-lr: 1.  # try putting 1. to 0.01
+lr: 1.  # try putting 1. to 0.001
 beta1: 0.9
 rho: 0.95
 eps: 0.00000001
@@ -24,8 +24,8 @@ select_data: 'train' # this is dataset folder in train_data
 batch_ratio: '1' 
 total_data_usage_ratio: 1.0
 batch_max_length: 34 
-imgH: 64
-imgW: 600
+imgH: 64  #64
+imgW: 600  #600
 rgb: False
 contrast_adjust: False
 sensitive: True
@@ -43,5 +43,5 @@ output_channel: 256
 hidden_size: 256
 decode: 'greedy' #beamsearch , greedy
 new_prediction: True  # for enabling new characters
-freeze_FeatureFxtraction: False
-freeze_SequenceModeling: False
+freeze_FeatureFxtraction: False #allow adapting convolutional layers to new size.
+freeze_SequenceModeling: False #flag controls whether the BiLSTM layers (which model the sequential relationship between characters in the image) are trainable:

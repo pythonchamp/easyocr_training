@@ -51,5 +51,5 @@ if __name__ == '__main__':
         image_folder='unique_images',
         label_csv='unique_images/labels.csv',
         output_folder='synthetic_data',
-        num_aug_per_image=20
+        num_aug_per_image=30
     )
