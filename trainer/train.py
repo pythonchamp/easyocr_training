@@ -276,6 +276,7 @@ def train(opt, show_number = 2, amp=False):
             torch.save(
                 model.state_dict(), f'./saved_models/{opt.experiment_name}/iter_{i+1}.pth')
 
+        print(f"=============={i=}/ {opt.num_iter=}===============")
         if i == opt.num_iter:
             print('end the training')
             sys.exit()

@@ -621,3 +621,11 @@ C
 easyocr/dict/ab.txt,0\2\02dbbb8eea179ab8fd9a69fdd979beec736f673a
 C
 easyocr/dict/oc.txt,c\e\cede54a1b31ceca7d30f813e60297d53235aa756
+^
+.trainer/saved_models/en_filtered/log_train.txt,7\c\7c712e4ebd39409ff74e0b8d727e1a05e688344c
+X
+(trainer/saved_models/en_filtered/opt.txt,2\3\23b8ce3a53ba1de405ce130a5c7d3321a5dab990
+Q
+!trainer/all_data/train/labels.csv,f\9\f95b319fc416dc9550a1d3341375bec50e277953
+R
+"trainer/all_data/en_val/labels.csv,4\3\439845ab26d141d99fc4ddd1584eefaccf074a73
