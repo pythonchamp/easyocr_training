@@ -14,7 +14,7 @@ import numpy as np
 from utils import CTCLabelConverter, AttnLabelConverter, Averager
 from dataset import hierarchical_dataset, AlignCollate, Batch_Balanced_Dataset
 from model import Model
-from test import validation
+from tester import validation
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 def count_parameters(model):
@@ -29,7 +29,7 @@ def count_parameters(model):
     print(f"Total Trainable Params: {total_params}")
     return total_params
 
-def train(opt, show_number = 2, amp=False):
+def train(opt, show_number = 2, amp=False,model=None):
     """ dataset preparation """
     if not opt.data_filtering_off:
         print('Filtering the images containing characters which are not in opt.character')
@@ -61,7 +61,8 @@ def train(opt, show_number = 2, amp=False):
 
     if opt.rgb:
         opt.input_channel = 3
-    model = Model(opt)
+    if model is None: #load the default model
+        model = Model(opt)
     print('model input parameters', opt.imgH, opt.imgW, opt.num_fiducial, opt.input_channel, opt.output_channel,
           opt.hidden_size, opt.num_class, opt.batch_max_length, opt.Transformation, opt.FeatureExtraction,
           opt.SequenceModeling, opt.Prediction)
@@ -231,6 +232,7 @@ def train(opt, show_number = 2, amp=False):
                 with torch.no_grad():
                     valid_loss, current_accuracy, current_norm_ED, preds, confidence_score, labels,\
                     infer_time, length_of_data = validation(model, criterion, valid_loader, converter, opt, device)
+                    print(f"{infer_time=} {length_of_data=} {current_accuracy=}")
                 model.train()
 
                 # training loss and validation loss
@@ -241,9 +243,11 @@ def train(opt, show_number = 2, amp=False):
 
                 # keep best accuracy model (on valid dataset)
                 if current_accuracy > best_accuracy:
+                    print(f"Saving best accuracy mode {current_accuracy=} {best_accuracy=}")
                     best_accuracy = current_accuracy
                     torch.save(model.state_dict(), f'./saved_models/{opt.experiment_name}/best_accuracy.pth')
                 if current_norm_ED > best_norm_ED:
+                    print(f"Saving best norm mode {current_norm_ED=} {best_norm_ED=}")
                     best_norm_ED = current_norm_ED
                     torch.save(model.state_dict(), f'./saved_models/{opt.experiment_name}/best_norm_ED.pth')
                 best_model_log = f'{"Best_accuracy":17s}: {best_accuracy:0.3f}, {"Best_norm_ED":17s}: {best_norm_ED:0.4f}'
