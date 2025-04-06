@@ -272,9 +272,10 @@ def train(opt, show_number = 2, amp=False):
                 print('validation time: ', time.time()-t1)
                 t1=time.time()
         # save model per 1e+4 iter.
-        if (i + 1) % 1e+4 == 0:
+        # if (i + 1) % 1e+4 == 0:
+        if (i + 1) % 10 == 0:
             torch.save(
-                model.state_dict(), f'./saved_models/{opt.experiment_name}/iter_{i+1}.pth')
+                model.state_dict(), f'./saved_models/{opt.experiment_name}/iter/iter_{i+1}.pth')
 
         print(f"=============={i=}/ {opt.num_iter=}===============")
         if i == opt.num_iter:

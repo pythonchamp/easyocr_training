@@ -1,0 +1,9 @@
+[1/1] Train loss: 30.50279, Valid loss: 7.50695, Elapsed_time: 12.14187
+Current_accuracy : 0.000, Current_norm_ED  : 0.1579
+Best_accuracy    : 0.000, Best_norm_ED     : 0.1579
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IS PROGRAM CORRECT?       | 2mOaOJw?                  | 0.0000	False
+IS PROGRAM CORRECT?       | 2mOaOJw?                  | 0.0000	False
+--------------------------------------------------------------------------------

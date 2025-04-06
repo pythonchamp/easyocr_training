@@ -1,6 +1,6 @@
 number: '0123456789'
-symbol: "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ €…"
-lang_char: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+symbol: "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ €"
+lang_char: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz…'
 experiment_name: 'en_filtered'
 train_data: 'all_data/train'
 valid_data: 'all_data/en_val'
@@ -9,6 +9,7 @@ workers: 6
 batch_size: 10 #32
 num_iter: 1
 valInterval: 1
+#saved_model: 'saved_models/en_filtered/best_accuracy.pth'
 saved_model: 'saved_models/en_filtered/english_g2.pth' #'saved_models/en_filtered/iter_300000.pth'
 FT: False
 optim: False # default is Adadelta
